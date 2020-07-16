@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Emocrat3/Curso-React.git"
+    "url": "git+https://github.com/Emocrat3/api-proyectos-.git"
   },
   "author": "Arthuro Gomez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Emocrat3/Curso-React/issues"
+    "url": "https://github.com/Emocrat3/api-proyectos-/issues"
   },
-  "homepage": "https://github.com/Emocrat3/Curso-React#readme",
+  "homepage": "https://github.com/Emocrat3/api-proyectos-#readme",
   "dependencies": {
     "body-parser": "^1.19.0",
     "connect-multiparty": "^2.2.0",
