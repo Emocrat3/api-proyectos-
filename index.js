@@ -43,7 +43,7 @@ app.get('/api/articles/:last?', ArticleController.getArticles);
 app.get('/api/article/:id', ArticleController.getArticle);
 app.put('/api/article/:id', ArticleController.update);
 app.delete('/api/article/:id', ArticleController.delete);
-app.post('/api/upload-image/:id?', (req,res)=>{
+app.post('/api/upload-image', (req,res, next)=>{
        const file = req.files.photo;
 
        cloudinary.uploader.upload(file.tempFilePath, (err, result) => {
